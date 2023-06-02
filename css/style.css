@@ -1,0 +1,83 @@
+/*globle roles*/
+* {
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: #595cff;
+    color: white;
+}
+
+/*header carte*/
+.contentair {
+    width: 411px;
+    height: 508px;
+    background-color: #103783;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px #10368369;
+
+
+}
+
+.contentair .logo img {
+    width: 100%;
+    background-size: contain;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}
+
+
+.contentair .info table {
+    margin-left: 46px;
+    margin-top: 44px;
+    border-spacing: 1em 0.5em;
+
+
+
+}
+
+.contentair .info table td label {
+    padding-right: 22px;
+}
+
+.contentair .info table tr {
+    margin-top: 3px;
+    padding-bottom: 21px;
+    margin-bottom: 21px;
+}
+.contentair .info table td input {
+    width: 236px;
+    margin: 5px;
+}
+
+
+
+.contentair .info label {
+    text-transform: capitalize;
+
+}
+
+.contentair .info button {
+    text-transform: capitalize;
+}
+.client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.client button{
+    margin-left: 12px;
+    margin-top: 5px;
+    padding-left: 67px;
+    padding-right: 67px;
+}
+
